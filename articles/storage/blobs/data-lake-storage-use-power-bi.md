@@ -21,6 +21,7 @@ Before you begin this tutorial, you must have the following:
 > [!div class="checklist"]
 > * An Azure subscription. See [Get Azure free trial](https://azure.microsoft.com/pricing/free-trial/).
 > * A storage account that has a hierarchical namespace. Follow [these](data-lake-storage-quickstart-create-account.md) instructions to create one.
+> * You are granted one of the following roles for the storage account: Blob Data Reader, Blob Data Contributor or Blob Data Owner
 > This article assumes that you've created an account named `myadlsg2`.
 > * A sample data file named `Drivers.txt` located in your storage account.
 > You can download this sample from [Azure Data Lake Git Repository](https://github.com/Azure/usql/tree/master/Examples/Samples/Data/AmbulanceData/Drivers.txt), and then upload that file to your storage account.
